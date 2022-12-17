@@ -1,7 +1,9 @@
-
+import Navba from "./components/Navbar";
 function App() {
   return (
-    <div>Welcome</div>
+    <>
+      <Navba />
+    </>
   );
 }
 
