@@ -2,8 +2,7 @@ import styled from "styled-components";
 
 
 export const SearchInput = styled.div`
-   padding: 63px 57px 48px 77px;
-
+    
     input{
         height:54px;
         width:100%;
