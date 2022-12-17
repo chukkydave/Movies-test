@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { SearchInput } from '../styled-components/Search.styled'
 
 const Search = ({ setSearch, search, searchMovie }) => {
