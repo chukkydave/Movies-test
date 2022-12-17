@@ -7,11 +7,9 @@ import axios from 'axios';
 
 function App() {
   const [search, setSearch] = useState('');
-  const [loading, setLoading] = useState(false);
   const [movys, setMovys] = useState([]);
 
   const searchMovie = async val => {
-    setLoading(true);
 
     const response = await axios.get('http://www.omdbapi.com/', {
       params: {
