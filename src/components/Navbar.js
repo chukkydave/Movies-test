@@ -2,7 +2,7 @@ import React from 'react'
 import { Navbar, Slider } from '../styled-components/Navbar.styled'
 import logo from '../utils/MyTestApp.png'
 
-function Navba() {
+const Navba = () => {
     return (
         <>
             <Navbar>
